@@ -1,4 +1,4 @@
-﻿using Menees.Diffs.Controls;
+﻿using Menees.Diffs.Windows.Forms;
 
 namespace EpicorTraceDiffer
 {
@@ -47,7 +47,7 @@ namespace EpicorTraceDiffer
             this.traceParams = new ScintillaNET.Scintilla();
             this.scinTrace = new ScintillaNET.Scintilla();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.dc = new Menees.Diffs.Controls.DiffControl();
+            this.dc = new Menees.Diffs.Windows.Forms.DiffControl();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.checkForUpdateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
